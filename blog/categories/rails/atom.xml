@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Rails | Julian Code ONLY Blog]]></title>
+  <link href="http://JulianHentea.github.io/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://JulianHentea.github.io/"/>
+  <updated>2013-07-27T09:53:12-06:00</updated>
+  <id>http://JulianHentea.github.io/</id>
+  <author>
+    <name><![CDATA[Julian Hentea]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Render more than partials]]></title>
+    <link href="http://JulianHentea.github.io/blog/2013/07/17/render-more-than-partials/"/>
+    <updated>2013-07-17T10:54:00-06:00</updated>
+    <id>http://JulianHentea.github.io/blog/2013/07/17/render-more-than-partials</id>
+    <content type="html"><![CDATA[<p>``` ruby</p>
+
+<h1>there is more to render in Ruby on Rails than  :edit or &lt;%= render &lsquo;shared/footer&rsquo; %></h1>
+
+<h1>You can render &hellip;..</h1>
+
+<h1>nothing</h1>
+
+<p>render nothing: true</p>
+
+<h1>a file</h1>
+
+<p>render &ldquo;/current/app/views/cats/black&rdquo;</p>
+
+<h1>inline</h1>
+
+<p>render inline: &ldquo;&lt;% cats.each do |p| %><p>&lt;%= p.name %></p>&lt;% end %>&rdquo;</p>
+
+<h1>text</h1>
+
+<p>render text: &ldquo;More cats please.&rdquo;</p>
+
+<h1>JSON</h1>
+
+<p>render json: @cats</p>
+
+<h1>XML</h1>
+
+<p>render xml: @cats</p>
+
+<h1>JavaScript</h1>
+
+<p>render js: &ldquo;alert(&lsquo;Hello Kitty&rsquo;);&rdquo;</p>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>
